@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <!-- navbar -->
+        <header>
+            <nav>
+                <div class="logo">
+                        <img src="images/logoipsum-212 1.png">
+                    </div>
+                  <div class="input-field">
+                      <input type="text" placeholder="Search artist, title,album" id="searchinput" onkeyup="filtersongs()">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      
+
+                  </div>  
+
+            </nav>
+        </header>
+        <!-- navbar end -->
+
+        <div class="side-content">
+               <div class="left-content">
+                <div class="box">
+                    <h5>Discover</h5>
+                      <div class="tags">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="">Home</a>
+                      </div>
+                      <div class="tags">
+                        <i class="fa-light fa-microphone"></i>
+                        <a href="">Artist</a>
+                      </div>
+                      <div class="tags">
+                        <i class="fa-thin fa-list-music"></i>
+                        <a href="">Album</a>
+                      </div>
+                      <div class="tags">
+                        <i class="fa-light fa-microphone"></i>
+                        <a href="">Audio book</a>
+                      </div>
+                </div>
+              
+                <div class="box">
+                    <h5>library</h5>
+                      <div class="tags">
+                        <i class="fa-solid fa-rotate-right"></i>
+                        <a href="">Recent</a>
+                      </div>
+                      <div class="tags">
+                        <i class="fa-regular fa-heart"></i>
+                        <a href="">Favourite</a>
+                      </div>
+                      <div class="tags">
+                        <i class="fa-thin fa-list-music"></i>
+                        <a href="">Playlist</a>
+                      </div>
+                     
+                </div>
+                <div class="box">
+                    <h5>More</h5>
+                    <div class="tags">
+                        <i class="fa-regular fa-gear"></i>
+                      <a href="">Setting</a>
+                    </div>
+                    <div class="tags">
+                        <i class="fa-solid fa-user"></i>
+                      <a href="">Account</a>
+                    </div>
+                    <div class="tags">
+                        <i class="fa-solid fa-left-from-bracket"></i>
+                      <a href="">Logout</a>
+                    </div>
+
+
+               </div>
+                
+
+                </div>
+               
+                <div class="right-content">
+                    <h1>Top 10 Punjabi Songs</h1>
+                    <div class="music-library">
+                        <!-- <div class="songs">
+
+                            <div class="song-img">
+                              <img src="images/Murder-1.jpg">
+                            </div>
+                            <div class="title">
+                                <p>Title:Murder</p>
+                                <p>Singer:Shree brar</p>
+                                <p>Music:proof</p>
+                                <button id="playbtn">Play</button>
+                            </div>
+                            
+                        </div> -->
+
+                        
+                       
+                      
+                     
+                        
+                      
+
+
+                        </div>
+                        <div class="player">
+                            <audio id="musicPlayer" controls>
+                                <source id="songSource" src="" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- side content end -->
+
+         
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
